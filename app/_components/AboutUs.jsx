@@ -91,10 +91,7 @@ const AboutUs = () => {
               ))}
             </div>
 
-            <button className="mt-8 px-8 py-4 text-white bg-deepNavy rounded-xl shadow-md hover:bg-deepNavy/80 flex items-center gap-2 group">
-              Start Tracking Now
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            
           </div>
         </div>
       </div>
