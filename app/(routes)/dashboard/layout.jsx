@@ -37,6 +37,7 @@ function DashboardLayout({ children }) {
           <Menu size={24} />
         </button>
       </div>
+      
 
       {/* Sidebar */}
       <SideNav isOpen={isOpen} setIsOpen={setIsOpen} />

@@ -79,14 +79,14 @@ function Dashboard() {
   };
 
   return (
-    <div className="p-8 bg-gradient-to-br from-[#f0f9ff] to-[#bae6fd] min-h-screen flex flex-col gap-8 font-sans text-gray-800">
+    <div className="p-8 bg-[#d9e6ecdb] min-h-screen flex flex-col gap-8 font-sans text-gray-800">
       <header className="flex justify-between items-center mb-6">
         <div>
-        <h2 className="font-bold text-5xl text-[#4a4a4a]">
+        <h2 className="font-bold text-5xl text-[#4a4a4a] ">
   Hi, {user?.fullName}
   <span className="hidden sm:inline"> 👋</span>
 </h2>
-          <p className="text-gray-500 text-lg">Here’s what’s happening with your money — let’s take control!</p>
+          <p className="text-black mt-2 text-lg">Here’s what’s happening with your money — let’s take control!</p>
         </div>
         <UserButton afterSignOutUrl="/" />
       </header>
@@ -118,3 +118,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
