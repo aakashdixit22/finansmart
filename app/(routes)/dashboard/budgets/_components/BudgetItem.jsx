@@ -25,7 +25,7 @@ function BudgetItem({ budget }) {
               <h2 className="text-sm text-gray-500">{budget.totalItem} Items</h2>
             </div>
           </div>
-          <h2 className="font-bold text-primary text-lg">${budget.amount}</h2>
+          <h2 className="font-bold text-primary text-lg sm:text-sm">${budget.amount}</h2>
         </div>
 
         {/* Spending Section */}
