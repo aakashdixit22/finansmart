@@ -13,7 +13,7 @@ function BudgetItem({ budget }) {
         className="p-5 border-2 rounded-2xl bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 cursor-pointer h-[180px] flex flex-col justify-between"
       >
         {/* Header Section */}
-        <div className="flex gap-3 items-center justify-between sm:gap-2 w-full overflow-hidden">
+        <div className="flex gap-3 items-center justify-between sm:gap-2 w-full ">
           <div className="flex gap-3 items-center">
             <div
               className="text-2xl p-4 bg-slate-100 rounded-full flex items-center justify-center shadow-inner"
