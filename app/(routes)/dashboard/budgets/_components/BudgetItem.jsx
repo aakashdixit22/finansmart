@@ -13,7 +13,7 @@ function BudgetItem({ budget }) {
         className="p-5 border-2 rounded-2xl bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 cursor-pointer h-[180px] flex flex-col justify-between"
       >
         {/* Header Section */}
-        <div className="flex gap-4 items-center justify-between sm:gap-4 w-full overflow-hidden">
+        <div className="flex gap-4 items-center justify-between sm:gap-2 w-full overflow-hidden">
           <div className="flex gap-3 items-center">
             <div
               className="text-2xl p-4 bg-slate-100 rounded-full flex items-center justify-center shadow-inner"
@@ -25,7 +25,7 @@ function BudgetItem({ budget }) {
               <h2 className="text-sm text-gray-500">{budget.totalItem} Items</h2>
             </div>
           </div>
-          <h2 className="font-bold text-primary text-xl">${budget.amount}</h2>
+          <h2 className="font-bold text-primary text-lg">${budget.amount}</h2>
         </div>
 
         {/* Spending Section */}
