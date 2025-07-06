@@ -113,7 +113,7 @@ function Header() {
           >
             Testimonials
           </button>
-          <Link href="/upgrade" className="text-blue-700 hover:text-blue-500 font-medium transition-colors">
+          <Link href="/dashboard/upgrade" className="text-blue-700 hover:text-blue-500 font-medium transition-colors">
             Pricing
           </Link>
           {isSignedIn ? (
